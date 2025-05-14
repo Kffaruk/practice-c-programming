@@ -1,2 +1,2 @@
-# practice-c--programming
+# practice-c-programming
 Learning c programming
