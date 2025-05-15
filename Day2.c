@@ -52,7 +52,9 @@ int main()
     printf("Enter the value:");
     scanf("%d %d", &x, &y);
     printf("The value is:%d\n", x + y);
+
     // convert float
+
     float division = (float)x / y;
     printf("The division number is:%.1f\n", division);
     printf("The modulus number is:%d", x % y);
