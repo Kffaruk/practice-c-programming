@@ -7,9 +7,9 @@ int main()
     int x = 20;
     float y = 10.5;
     sum = x + y;
-
+    
     printf("The value is:%.2f", y);
-
+    
     char math, bangla, eng;
     math = 'A';
     bangla = 'B';
