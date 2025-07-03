@@ -3,19 +3,19 @@ int main()
 {
     // Practice 1
 
-    // int a,b,sum;
-    // printf("Enter two number");
-    // scanf("%d%d", &a,&b);
-    // sum = a + b;
-    // printf("Value is %d", sum);
+    int a,b,sum;
+    printf("Enter two number");
+    scanf("%d%d", &a,&b);
+    sum = a + b;
+    printf("Value is %d", sum);
 
     // Practice 2
 
-    // int age, ageDay;
-    // printf("Enter your age ");
-    // scanf("%d", &age);
-    // ageDay = age*365;
-    // printf("you have lived %d days", ageDay);
+    int age, ageDay;
+    printf("Enter your age ");
+    scanf("%d", &age);
+    ageDay = age*365;
+    printf("you have lived %d days", ageDay);
 
     // Practice 3
 
