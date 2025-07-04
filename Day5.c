@@ -3,36 +3,36 @@ int main()
 {
     // practice 1
 
-    // int age;
-    // float weight;
-    // char grade;
-    // printf("Enter your data: ");
-    // scanf("%d %f %c", &age, &weight, &grade);
-    // printf("age: %d\n", age);
-    // printf("grade: %c\n", grade);
-    // printf("weight: %.2f\n", weight);
+    int age;
+    float weight;
+    char grade;
+    printf("Enter your data: ");
+    scanf("%d %f %c", &age, &weight, &grade);
+    printf("age: %d\n", age);
+    printf("grade: %c\n", grade);
+    printf("weight: %.2f\n", weight);
     
     
     // practice 2
 
 
-    // const float PI = 3.1416;
-    // float  area,radius;
-    // printf("Enter radius : ");
-    // scanf("%f",  &radius);
-    // area = radius*radius*PI;
-    // printf("%.2f\n", area);
+    const float PI = 3.1416;
+    float  area,radius;
+    printf("Enter radius : ");
+    scanf("%f",  &radius);
+    area = radius*radius*PI;
+    printf("%.2f\n", area);
     
     // practice 3
 
 
-    // int a,b;
-    // printf("Enter number: ");
-    // scanf("%d %d", &a, &b);
-    // printf("a + b = %d\n", a + b);
-    // printf("a - b = %d\n", a - b);
-    // printf("a * b = %d\n", a * b);
-    // printf("a / b = %.2f\n", (float)a / b);
+    int a,b;
+    printf("Enter number: ");
+    scanf("%d %d", &a, &b);
+    printf("a + b = %d\n", a + b);
+    printf("a - b = %d\n", a - b);
+    printf("a * b = %d\n", a * b);
+    printf("a / b = %.2f\n", (float)a / b);
 
 
     // practice 4
@@ -45,14 +45,14 @@ int main()
     // practice 5
 
 
-    // int a,b;
-    // printf("Enter number: ");
-    // scanf("%d %d", &a, &b);
-    // printf("a + b = %d\n", a + b);
-    // printf("a - b = %d\n", a - b);
-    // printf("a * b = %d\n", a * b);
-    // printf("a / b = %.2f\n", (float)a / b);
-    // printf("a modulus b = %d\n", a % b);
+    int a,b;
+    printf("Enter number: ");
+    scanf("%d %d", &a, &b);
+    printf("a + b = %d\n", a + b);
+    printf("a - b = %d\n", a - b);
+    printf("a * b = %d\n", a * b);
+    printf("a / b = %.2f\n", (float)a / b);
+    printf("a modulus b = %d\n", a % b);
 
 
     // practice 6
