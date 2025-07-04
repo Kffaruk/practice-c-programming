@@ -37,10 +37,10 @@ int main()
 
     // practice 4
 
-    // char name[50];
-    // printf("Enter your name: ");
-    // scanf("%s", &name);
-    // printf("Hello, %s Welcome.", name);
+    char name[50];
+    printf("Enter your name: ");
+    scanf("%s", &name);
+    printf("Hello, %s Welcome.", name);
 
     // practice 5
 
