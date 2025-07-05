@@ -52,20 +52,20 @@
    - **উদাহরণ:** অপারেটিং সিস্টেমের লোডার উপাদান।
 
 6. **Preprocessor:**
-   - **Purpose:** A preprocessor is a tool that processes the source code before compilation. It handles directives and macros, performs text substitution, and prepares the code for the compiler.
-   - **Examples:** The C/C++ preprocessor, which handles `#include` and `#define` directives.
+   - **উদ্দেশ্য:** প্রিপ্রসেসর হল এমন একটি টুল যা সংকলনের আগে সোর্স কোড প্রক্রিয়া করে। এটি নির্দেশিকা এবং ম্যাক্রো পরিচালনা করে, টেক্সট প্রতিস্থাপন করে এবং কম্পাইলারের জন্য কোড প্রস্তুত করে।
+   - **উদাহরণ:** C/C++ প্রিপ্রসেসর, যা #include এবং #define নির্দেশিকা পরিচালনা করে।
 
 7. **Transpiler (Source-to-Source Compiler):**
-   - **Purpose:** A transpiler translates code from one high-level programming language into another high-level programming language. It is often used for migrating codebases or converting code to be compatible with different platforms or frameworks.
-   - **Examples:** Babel (JavaScript transpiler), TypeScript compiler (TypeScript to JavaScript).
+   - **উদ্দেশ্য:** একটি ট্রান্সপাইলার একটি উচ্চ-স্তরের প্রোগ্রামিং ভাষা থেকে অন্য একটি উচ্চ-স্তরের প্রোগ্রামিং ভাষায় কোড অনুবাদ করে। এটি প্রায়শই কোডবেস স্থানান্তরিত করার জন্য বা বিভিন্ন প্ল্যাটফর্ম বা ফ্রেমওয়ার্কের সাথে সামঞ্জস্যপূর্ণ কোড রূপান্তর করার জন্য ব্যবহৃত হয়।
+   - **উদাহরণ:** Babel (জাভাস্ক্রিপ্ট ট্রান্সপাইলার), টাইপস্ক্রিপ্ট কম্পাইলার (টাইপস্ক্রিপ্ট থেকে জাভাস্ক্রিপ্ট)।
 
 8. **Cross-Compiler:**
-   - **Purpose:** A cross-compiler is designed to generate code for a different target platform or architecture than the one it runs on. This is often used in embedded systems development.
-   - **Examples:** ARM cross-compiler, used for developing software for ARM-based microcontrollers on x86-based computers.
+   - **উদ্দেশ্য:** একটি ক্রস-কম্পাইলার এমনভাবে ডিজাইন করা হয় যাতে এটি যে প্ল্যাটফর্মে চলে তার থেকে ভিন্ন টার্গেট প্ল্যাটফর্ম বা আর্কিটেকচারের জন্য কোড তৈরি করা হয়। এটি প্রায়শই এমবেডেড সিস্টেম ডেভেলপমেন্টে ব্যবহৃত হয়।
+   - **উদাহরণ:** ARM ক্রস-কম্পাইলার, x86-ভিত্তিক কম্পিউটারে ARM-ভিত্তিক মাইক্রোকন্ট্রোলারের জন্য সফ্টওয়্যার তৈরির জন্য ব্যবহৃত হয়।
 
 9. **Decompiler:**
-   - **Purpose:** A decompiler attempts to reverse the process of compilation by translating machine code or executable files back into a higher-level programming language or assembly language. This is often used for reverse engineering and analysis of binaries.
-   - **Examples:** IDA Pro, Hex-Rays (for reverse engineering).
+   - **উদ্দেশ্য:** একটি ডিকম্পাইলার মেশিন কোড বা এক্সিকিউটেবল ফাইলগুলিকে উচ্চ-স্তরের প্রোগ্রামিং ভাষা বা অ্যাসেম্বলি ভাষায় রূপান্তর করে সংকলনের প্রক্রিয়াটিকে বিপরীত করার চেষ্টা করে। এটি প্রায়শই বিপরীত প্রকৌশল এবং বাইনারি বিশ্লেষণের জন্য ব্যবহৃত হয়।
+   - **উদাহরণ:** IDA Pro, Hex-Rays (বিপরীত প্রকৌশলের জন্য)।
 
 Each type of translator program serves a specific role in the software development process, from converting human-readable code into machine code to managing dependencies and loading the program into memory for execution. The choice of which type of translator to use depends on the programming language, target platform, and development requirements.
 
