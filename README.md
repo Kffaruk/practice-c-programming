@@ -26,9 +26,10 @@
 
 ### 1.1 Program? Translator Program?
 
-A program is a set of instructions to perfrom a task.
 
-A translator program is a software tool that translates source code to object code (machine code / binary code). It ranslates code or instructions from one programming language into another. It plays a crucial role in the software development process, enabling developers to write code in high-level languages that are easier to understand and maintain, while the translator converts it into machine code that a computer can execute. There are several types of translator programs, each serving a specific purpose in this process:
+একটি প্রোগ্রাম হল একটি কাজ সম্পাদনের জন্য নির্দেশাবলীর একটি সেট।
+
+একটি অনুবাদক প্রোগ্রাম হল একটি সফ্টওয়্যার টুল যা সোর্স কোডকে অবজেক্ট কোডে (মেশিন কোড / বাইনারি কোড) অনুবাদ করে। এটি একটি প্রোগ্রামিং ভাষা থেকে অন্য প্রোগ্রামিং ভাষাতে কোড বা নির্দেশাবলী স্থানান্তর করে। এটি সফ্টওয়্যার ডেভেলপমেন্ট প্রক্রিয়ায় একটি গুরুত্বপূর্ণ ভূমিকা পালন করে, ডেভেলপারদের উচ্চ-স্তরের ভাষায় কোড লিখতে সক্ষম করে যা বোঝা এবং রক্ষণাবেক্ষণ করা সহজ, অন্যদিকে অনুবাদক এটিকে মেশিন কোডে রূপান্তর করে যা একটি কম্পিউটার কার্যকর করতে পারে। বিভিন্ন ধরণের অনুবাদক প্রোগ্রাম রয়েছে, প্রতিটি এই প্রক্রিয়ায় একটি নির্দিষ্ট উদ্দেশ্য পূরণ করে।
 
 1. **Compiler:**
    - **Purpose:** A compiler translates the entire source code of a program written in a high-level language into machine code or another lower-level language in one go. It generates an executable file that can run independently.
