@@ -67,7 +67,7 @@
    - **উদ্দেশ্য:** একটি ডিকম্পাইলার মেশিন কোড বা এক্সিকিউটেবল ফাইলগুলিকে উচ্চ-স্তরের প্রোগ্রামিং ভাষা বা অ্যাসেম্বলি ভাষায় রূপান্তর করে সংকলনের প্রক্রিয়াটিকে বিপরীত করার চেষ্টা করে। এটি প্রায়শই বিপরীত প্রকৌশল এবং বাইনারি বিশ্লেষণের জন্য ব্যবহৃত হয়।
    - **উদাহরণ:** IDA Pro, Hex-Rays (বিপরীত প্রকৌশলের জন্য)।
 
-Each type of translator program serves a specific role in the software development process, from converting human-readable code into machine code to managing dependencies and loading the program into memory for execution. The choice of which type of translator to use depends on the programming language, target platform, and development requirements.
+প্রতিটি ধরণের অনুবাদক প্রোগ্রাম সফ্টওয়্যার ডেভেলপমেন্ট প্রক্রিয়ায় একটি নির্দিষ্ট ভূমিকা পালন করে, মানুষের পাঠযোগ্য কোডকে মেশিন কোডে রূপান্তর করা থেকে শুরু করে নির্ভরতা পরিচালনা করা এবং প্রোগ্রামটিকে কার্যকর করার জন্য মেমোরিতে লোড করা পর্যন্ত। কোন ধরণের অনুবাদক ব্যবহার করবেন তা প্রোগ্রামিং ভাষা, লক্ষ্য প্ল্যাটফর্ম এবং বিকাশের প্রয়োজনীয়তার উপর নির্ভর করে।
 
 ### 1.2 Algorithm and Flowchart
 
