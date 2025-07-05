@@ -48,8 +48,8 @@
    - **উদাহরণ:** ld (GNU Linker), Microsoft Linker (link.exe)।
 
 5. **Loader:**
-   -উদ্দেশ্য: একটি লোডার একটি এক্সিকিউটেবল প্রোগ্রামকে মেমোরিতে লোড করে যাতে এটি CPU দ্বারা কার্যকর করা যায়। এটি প্রয়োজনীয় মেমোরি বরাদ্দ এবং স্থানান্তরও করে।
-   -উদাহরণ: অপারেটিং সিস্টেমের লোডার উপাদান।
+   -**উদ্দেশ্য:** একটি লোডার একটি এক্সিকিউটেবল প্রোগ্রামকে মেমোরিতে লোড করে যাতে এটি CPU দ্বারা কার্যকর করা যায়। এটি প্রয়োজনীয় মেমোরি বরাদ্দ এবং স্থানান্তরও করে।
+   -**উদাহরণ:** অপারেটিং সিস্টেমের লোডার উপাদান।
 
 6. **Preprocessor:**
    - **Purpose:** A preprocessor is a tool that processes the source code before compilation. It handles directives and macros, performs text substitution, and prepares the code for the compiler.
