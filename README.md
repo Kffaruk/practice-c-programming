@@ -135,7 +135,7 @@ Here are some key aspects of C programming and reasons why C has been important:
 
 - code editor (VSCode/Codeblock) and compiler (gcc)
 
-### 1.4 First C program ans its various parts
+### 1.4 First C program
 
 ```c
 #include <stdio.h>
