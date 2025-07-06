@@ -97,21 +97,21 @@
 
 **Flowcharts:**
 
-1. **Start and End:** Every flowchart begins with a "Start" symbol and ends with an "End" symbol.
+১. **শুরু এবং শেষ:** প্রতিটি ফ্লোচার্ট একটি "শুরু" চিহ্ন দিয়ে শুরু হয় এবং একটি "শেষ" চিহ্ন দিয়ে শেষ হয়।
 
-2. **Processes:** Use rectangular boxes to represent the processing steps or operations in the algorithm.
+২. **প্রক্রিয়া:** অ্যালগরিদমের প্রক্রিয়াকরণ ধাপ বা ক্রিয়াকলাপ উপস্থাপন করতে আয়তাকার বাক্স ব্যবহার করুন।
 
-3. **Decision Points:** Represent decision points (e.g., if-else statements) with diamond-shaped symbols.
+৩. **সিদ্ধান্ত পয়েন্ট:** সিদ্ধান্ত পয়েন্টগুলি (যেমন, যদি-অন্যথায় বিবৃতি) হীরা আকৃতির প্রতীক দিয়ে উপস্থাপন করুন।
 
-4. **Input/Output:** Use parallelograms to denote input and output operations.
+৪. **ইনপুট/আউটপুট:** ইনপুট এবং আউটপুট ক্রিয়াকলাপ নির্দেশ করতে সমান্তরালগ্রাম ব্যবহার করুন।
 
-5. **Arrows:** Connect the symbols with arrows to indicate the flow of control or data from one step to another.
+৫. **তীরচিহ্ন:** এক ধাপ থেকে অন্য ধাপে নিয়ন্ত্রণ বা ডেটার প্রবাহ নির্দেশ করতে তীরচিহ্ন দিয়ে প্রতীকগুলি সংযুক্ত করুন।
 
-6. **Flow Control:** Use arrows with labels (e.g., "Yes" or "No") to indicate the direction of flow based on decisions.
+৬. **প্রবাহ নিয়ন্ত্রণ:** সিদ্ধান্তের উপর ভিত্তি করে প্রবাহের দিক নির্দেশ করতে লেবেলযুক্ত তীরচিহ্ন (যেমন, "হ্যাঁ" বা "না") ব্যবহার করুন।
 
-7. **Connectors:** Sometimes, you may need to use connectors (small circles) to link different parts of the flowchart.
+৭. **সংযোগকারী:** কখনও কখনও, ফ্লোচার্টের বিভিন্ন অংশকে সংযুক্ত করতে আপনাকে সংযোগকারী (ছোট বৃত্ত) ব্যবহার করতে হতে পারে।
 
-8. **Annotations:** Add comments and explanations to clarify the purpose of specific steps or decisions.
+৮. **টীকা:** নির্দিষ্ট পদক্ষেপ বা সিদ্ধান্তের উদ্দেশ্য স্পষ্ট করার জন্য মন্তব্য এবং ব্যাখ্যা যোগ করুন।
 
 To create a flowchart for an algorithm, you can use specialized software or even pen and paper. Flowcharts help in visualizing the logic of an algorithm and are valuable tools for designing, documenting, and communicating the solution to others.
 
