@@ -296,7 +296,6 @@ Example of comments in C code:
 - `\'`: Single quotation mark.
 - `\\`: Backslash.
 
-Escape sequences are often used when you need to insert special characters into strings, such as newline characters to format text or escape quotation marks within a string.
 
 Example of escape sequences in C code:
 
@@ -314,4 +313,12 @@ Example of escape sequences in C code:
    }
    ```
 
-When you run the code, you will see that the escape sequences are interpreted and displayed as the corresponding special characters.
+যখন আপনি একটি প্রোগ্রাম চালান (Run), তখন কোডের মধ্যে থাকা এস্কেপ সিকোয়েন্সগুলো তাদের নির্দিষ্ট বিশেষ কাজ অনুযায়ী ব্যাখ্যা (interpret) করা হয় এবং আউটপুটে সেই অনুযায়ী প্রদর্শিত হয়।
+
+🔹 যেমনঃ
+
+\n দিলে আউটপুটে একটি নতুন লাইন তৈরি হয়।
+
+\t দিলে কিছু ফাঁকা জায়গা বা ট্যাব তৈরি হয়।
+
+\" দিলে আউটপুটে ডাবল কোটেশন দেখা যায়।
