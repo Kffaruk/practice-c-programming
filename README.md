@@ -248,57 +248,71 @@ putchar() / getchar() – একটি করে ক্যারেক্টা�
 
 - আর যদি return 1; বা অন্য কোনো অ-শূন্য সংখ্যা দিই, তাহলে সেটা বোঝায় – প্রোগ্রামে কিছু সমস্যা হয়েছে।
 
-## challenge 1: print your name, email and address
-# 1.5 Comments and Escape sequences
+#### Challenge 1: print your name, email and address
+
+### 1.5 Comments and Escape sequences
+
 In C programming, comments and escape sequences are important for code documentation and character representation. It also help for debugging and leave explanation of codes. Here's an explanation of each:
 
-Comments:
+**Comments:**
 
 Comments in C are used to provide explanations or descriptions within the code. They are ignored by the compiler and serve as documentation for programmers. C provides two types of comments:
 
-Single-Line Comments: Single-line comments begin with // and continue to the end of the line. They are often used for short explanations on a single line.
+1. **Single-Line Comments:** Single-line comments begin with `//` and continue to the end of the line. They are often used for short explanations on a single line.
 
-// This is a single-line comment
-Multi-Line Comments: Multi-line comments are enclosed between /* and */. They can span multiple lines and are often used for longer explanations.
-
-/* This is a
-   multi-line comment */
-Example of comments in C code:
-
-#include <stdio.h>
-
-int main() {
+   ```c
    // This is a single-line comment
-   printf("Hello, World!\n"); // This comment is at the end of the line
+   ```
 
+2. **Multi-Line Comments:** Multi-line comments are enclosed between `/*` and `*/`. They can span multiple lines and are often used for longer explanations.
+
+   ```c
    /* This is a
       multi-line comment */
-   
-   return 0;
-}
-Escape Sequences:
+   ```
 
-Escape sequences are special character combinations that are used to represent characters that are not directly typable or printable. They begin with a backslash \ followed by a character. Here are some common escape sequences in C:
+Example of comments in C code:
 
-\n: Newline character.
-\t: Tab character.
-\": Double quotation mark.
-\': Single quotation mark.
-\\: Backslash.
+   ```c
+   #include <stdio.h>
+
+   int main() {
+      // This is a single-line comment
+      printf("Hello, World!\n"); // This comment is at the end of the line
+
+      /* This is a
+         multi-line comment */
+      
+      return 0;
+   }
+   ```
+
+**Escape Sequences:**
+
+Escape sequences are special character combinations that are used to represent characters that are not directly typable or printable. They begin with a backslash `\` followed by a character. Here are some common escape sequences in C:
+
+- `\n`: Newline character.
+- `\t`: Tab character.
+- `\"`: Double quotation mark.
+- `\'`: Single quotation mark.
+- `\\`: Backslash.
+
 Escape sequences are often used when you need to insert special characters into strings, such as newline characters to format text or escape quotation marks within a string.
 
 Example of escape sequences in C code:
 
-#include <stdio.h>
+   ```c
+   #include <stdio.h>
 
-int main() {
-   printf("This is a newline: \n");
-   printf("This is a tab: \t");
-   printf("This is a double quote: \"\n");
-   printf("This is a single quote: \'\n");
-   printf("This is a backslash: \\\n");
+   int main() {
+      printf("This is a newline: \n");
+      printf("This is a tab: \t");
+      printf("This is a double quote: \"\n");
+      printf("This is a single quote: \'\n");
+      printf("This is a backslash: \\\n");
 
-   return 0;
-}
+      return 0;
+   }
+   ```
+
 When you run the code, you will see that the escape sequences are interpreted and displayed as the corresponding special characters.
-
