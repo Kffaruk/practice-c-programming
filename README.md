@@ -248,8 +248,8 @@ putchar() / getchar() – একটি করে ক্যারেক্টা�
 
 - আর যদি return 1; বা অন্য কোনো অ-শূন্য সংখ্যা দিই, তাহলে সেটা বোঝায় – প্রোগ্রামে কিছু সমস্যা হয়েছে।
 
-hallenge 1: print your name, email and address
-1.5 Comments and Escape sequences
+## challenge 1: print your name, email and address
+# 1.5 Comments and Escape sequences
 In C programming, comments and escape sequences are important for code documentation and character representation. It also help for debugging and leave explanation of codes. Here's an explanation of each:
 
 Comments:
