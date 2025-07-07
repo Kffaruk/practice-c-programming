@@ -252,19 +252,16 @@ putchar() / getchar() – একটি করে ক্যারেক্টা�
 
 ### 1.5 Comments and Escape sequences
 
-In C programming, comments and escape sequences are important for code documentation and character representation. It also help for debugging and leave explanation of codes. Here's an explanation of each:
 
 **Comments:**
 
-Comments in C are used to provide explanations or descriptions within the code. They are ignored by the compiler and serve as documentation for programmers. C provides two types of comments:
-
-1. **Single-Line Comments:** Single-line comments begin with `//` and continue to the end of the line. They are often used for short explanations on a single line.
+1. **একক-লাইন মন্তব্য:** একক-লাইন মন্তব্য // দিয়ে শুরু হয় এবং লাইনের শেষ পর্যন্ত চলতে থাকে। এগুলি প্রায়শই একটি একক লাইনে সংক্ষিপ্ত ব্যাখ্যার জন্য ব্যবহৃত হয়।
 
    ```c
    // This is a single-line comment
    ```
 
-2. **Multi-Line Comments:** Multi-line comments are enclosed between `/*` and `*/`. They can span multiple lines and are often used for longer explanations.
+2. **বহু-লাইন মন্তব্য:** বহু-লাইন মন্তব্য /* এবং */ এর মধ্যে আবদ্ধ থাকে। এগুলি একাধিক লাইন বিস্তৃত করতে পারে এবং প্রায়শই দীর্ঘ ব্যাখ্যার জন্য ব্যবহৃত হয়।
 
    ```c
    /* This is a
@@ -289,7 +286,9 @@ Example of comments in C code:
 
 **Escape Sequences:**
 
-Escape sequences are special character combinations that are used to represent characters that are not directly typable or printable. They begin with a backslash `\` followed by a character. Here are some common escape sequences in C:
+এস্কেপ সিকোয়েন্স হলো কিছু বিশেষ অক্ষরের সংমিশ্রণ, যেগুলো এমন চরিত্র (character) প্রকাশ করে যা সরাসরি টাইপ করা যায় না অথবা মুদ্রণযোগ্য নয়।
+
+এস্কেপ সিকোয়েন্সগুলো একটি ব্যাকস্ল্যাশ \ দিয়ে শুরু হয় এবং এর পরে একটি নির্দিষ্ট অক্ষর থাকে। এটি C প্রোগ্রামিং-এ আউটপুট বা টেক্সটে বিশেষ প্রভাব ফেলতে ব্যবহৃত হয়।
 
 - `\n`: Newline character.
 - `\t`: Tab character.
