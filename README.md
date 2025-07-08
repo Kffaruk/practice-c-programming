@@ -332,18 +332,18 @@ Example of escape sequences in C code:
 সংজ্ঞা: কীওয়ার্ড হলো প্রোগ্রামিং ভাষার কিছু নির্দিষ্ট ও সংরক্ষিত শব্দ, যেগুলোর কাজ আগে থেকেই ঠিক করে রাখা থাকে। এগুলো দিয়ে ভেরিয়েবল বা অন্য কিছুর নাম রাখা যায় না।
 
 উদাহরণ: int	পূর্ণসংখ্যা (সংখ্যা) রাখার জন্য ডেটা টাইপ। যেমন: 5, 10, -3
-         char	একটি অক্ষর রাখার জন্য ব্যবহৃত হয়। যেমন: 'a', 'Z', '#'
-         float	দশমিক সংখ্যা রাখার জন্য ব্যবহৃত হয়। যেমন: 3.14, -2.5
-         double	বড় বা বেশি সঠিক দশমিক সংখ্যা রাখার জন্য। float এর চেয়ে বেশি স্পেস নেয়।
-         if	শর্ত যাচাই করার জন্য ব্যবহৃত হয়। (যদি কিছু সত্য হয়, তাহলে…)
-         else	if এর সাথে ব্যবহার হয় — যদি if ভুল হয়, তখন else চালানো হয়।
-         while	একটি শর্ত সত্য থাকলে বারবার কোড চালানোর জন্য (loop)।
-         for	নির্দিষ্ট সংখ্যক বার লুপ চালানোর জন্য ব্যবহৃত হয়।
-         switch	একাধিক শর্ত অনুযায়ী কাজ বাছাই করার জন্য (if-else এর বিকল্প)।
-         return	কোনো ফাংশনের কাজ শেষে একটি মান ফেরত পাঠাতে ব্যবহৃত হয়।
-         break	লুপ বা switch থেকে বের হয়ে আসার জন্য ব্যবহৃত হয়।
-         continue	লুপে বর্তমান ধাপ বাদ দিয়ে পরবর্তী ধাপে যাওয়ার জন্য ব্যবহৃত হয়।
-         void	দেখায় যে একটি ফাংশন কিছু ফেরত (return) দেবে না।    
+        - char	একটি অক্ষর রাখার জন্য ব্যবহৃত হয়। যেমন: 'a', 'Z', '#'
+        - float	দশমিক সংখ্যা রাখার জন্য ব্যবহৃত হয়। যেমন: 3.14, -2.5
+        - double	বড় বা বেশি সঠিক দশমিক সংখ্যা রাখার জন্য। float এর চেয়ে বেশি স্পেস নেয়।
+        - if	শর্ত যাচাই করার জন্য ব্যবহৃত হয়। (যদি কিছু সত্য হয়, তাহলে…)
+        - else	if এর সাথে ব্যবহার হয় — যদি if ভুল হয়, তখন else চালানো হয়।
+        - while	একটি শর্ত সত্য থাকলে বারবার কোড চালানোর জন্য (loop)।
+        - for	নির্দিষ্ট সংখ্যক বার লুপ চালানোর জন্য ব্যবহৃত হয়।
+        - switch	একাধিক শর্ত অনুযায়ী কাজ বাছাই করার জন্য (if-else এর বিকল্প)।
+        - return	কোনো ফাংশনের কাজ শেষে একটি মান ফেরত পাঠাতে ব্যবহৃত হয়।
+        - break	লুপ বা switch থেকে বের হয়ে আসার জন্য ব্যবহৃত হয়।
+        - continue	লুপে বর্তমান ধাপ বাদ দিয়ে পরবর্তী ধাপে যাওয়ার জন্য ব্যবহৃত হয়।
+        - void	দেখায় যে একটি ফাংশন কিছু ফেরত (return) দেবে না।    
 
 ✅ এগুলোর মানে প্রোগ্রামিং ভাষা নিজে বুঝে, তাই এগুলোর ব্যবহার নির্দিষ্ট নিয়মে করতে হয়।
 <br>
@@ -450,23 +450,6 @@ C ভাষায় বড় হাত ও ছোট হাতের অক্ষ
 - উদাহরণ: MyVar এবং myvar — দুটি আলাদা ভেরিয়েবল।
 
 
-**Variable Naming Conventions:**
-
-1. **Use Descriptive Names:** Choose variable names that clearly convey the purpose of the variable. For example, use `counter` instead of `c` for a counter variable.
-
-2. **Camel Case:** For multi-word variable names, use camel case. Start with a lowercase letter, and capitalize the first letter of each subsequent word. For example, `myVariableName`.
-
-3. **Meaningful Names:** Make sure variable names reflect the data they hold. For example, use `studentName` instead of `name` for a student's name.
-
-4. **Avoid Single Letters:** Generally, avoid using single letters (except for loop counters) as variable names. This improves code readability.
-
-5. **Constants:** If a variable is a constant (a value that does not change), use uppercase letters with underscores to separate words. For example, `MAX_VALUE`.
-
-6. **Prefixes and Suffixes:** You can use prefixes or suffixes to indicate variable types. For example, `strName` for a string and `nCount` for an integer count.
-
-7. **Avoid Ambiguity:** Ensure your variable names are not ambiguous. For example, if you have both `customerName` and `customerAddress`, it's clear what they represent.
-
-8. **Consistency:** Maintain a consistent naming style across your codebase. If you start with camel case, continue with camel case.
 
 **Examples:**
 
@@ -487,8 +470,6 @@ C ভাষায় বড় হাত ও ছোট হাতের অক্ষ
    // Consistent style and camel case
    int totalSalesCount;
    ```
-
-Adhering to these naming conventions and rules will improve the readability and maintainability of your C code and make it easier for you and other developers to understand and work with your programs.
 
 #### challenge 2: declare and initialize variables
 
@@ -579,7 +560,6 @@ C provides several built-in data types, allowing you to store different types of
       }
       ```
 
-      Please note that the actual memory sizes and ranges can vary depending on the specific compiler and system architecture (32-bit vs. 64-bit). You can use the `sizeof` operator in C to determine the size of data types on your system:
 
       ```c
       printf("Size of int: %lu bytes\n", sizeof(int));
@@ -588,7 +568,6 @@ C provides several built-in data types, allowing you to store different types of
       printf("Size of long long: %lu bytes\n", sizeof(long long));
       ```
 
-      This code will output the sizes of these data types on your specific system.
 
 2. **Floating-Point Data Types:**
    - `float`: Used for single-precision floating-point numbers.
