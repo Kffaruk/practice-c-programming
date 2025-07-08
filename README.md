@@ -399,10 +399,6 @@ char → একটি অক্ষর (যেমন: 'A')
 
 
 
-- `int age;` (Declares an integer variable named `age`.)
-- `float salary = 5000.50;` (Declares a floating-point variable named `salary` and assigns it an initial value.)
-- `char initial = 'A';` (Declares a character variable named `initial` and assigns it the character 'A'.)
-
    ```c
    // declaring variables
    #include <stdio.h>
@@ -417,8 +413,6 @@ char → একটি অক্ষর (যেমন: 'A')
    }
    ```
 
-Naming conventions and rules for variables in C are essential for writing readable and maintainable code. They help developers understand the purpose of variables and ensure consistency across projects. Here are some common naming conventions and rules for variables in C:
-
 **Variable Naming Rules:**
 
 **১.Valid Characters (যে অক্ষরগুলো ব্যবহার করা যাবে):**
@@ -428,22 +422,27 @@ Naming conventions and rules for variables in C are essential for writing readab
 
 উদাহরণ:ভালো নাম – age, _total, marks1
         ভুল নাম – 1num, *data
-
+<br>
 **২.Reserved Keywords (সংরক্ষিত শব্দ ব্যবহার করা যাবে না):**
 ভেরিয়েবলের নাম হিসেবে C ভাষার কীওয়ার্ড (যেমন int, while, return) ব্যবহার করা যাবে না।
 
 ভুল উদাহরণ: int, if, void – এসব নাম ভেরিয়েবলের জন্য ব্যবহার করলে ভুল হবে।
 
+<br>
 **৩.No Special Characters (বিশেষ চিহ্ন ব্যবহার করা যাবে না):**
 ভেরিয়েবলের নামে @, $, %, !, &, * ইত্যাদি চিহ্ন ব্যবহার করা যাবে না।
 
 ভুল নাম: my@name, value$, num%1
 
+<br>
 **৪.Length (নামের দৈর্ঘ্য):**
 ভেরিয়েবলের নাম যত খুশি লম্বা করা যায়, কিন্তু ছোট এবং অর্থবোধক রাখা ভালো।
 
 ভালো নাম: totalMarks, studentAge, averageScore
 
+
+
+<br>
 **৫.Case Sensitive (হুবহু মিল না থাকলে আলাদা ধরা হয়):**
 C ভাষায় বড় হাত ও ছোট হাতের অক্ষর আলাদা মনে করা হয়।
 
