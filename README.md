@@ -397,7 +397,7 @@ char → একটি অক্ষর (যেমন: 'A')
    }
    ```
 
-Variables are used to store and manipulate data within a C program. When declaring a variable, you specify its data type, a name, and an optional initial value. Variable names must be unique within a scope (a block of code). Examples of variable declarations:
+
 
 - `int age;` (Declares an integer variable named `age`.)
 - `float salary = 5000.50;` (Declares a floating-point variable named `salary` and assigns it an initial value.)
@@ -421,13 +421,34 @@ Naming conventions and rules for variables in C are essential for writing readab
 
 **Variable Naming Rules:**
 
-1. **Valid Characters:** Variable names can consist of letters (both uppercase and lowercase), digits, and underscores. They must start with a letter or an underscore. C is case-sensitive, so `myVariable` and `myvariable` are considered different names.
+**১.Valid Characters (যে অক্ষরগুলো ব্যবহার করা যাবে):**
+ভেরিয়েবলের নামে অক্ষর (A-Z, a-z), সংখ্যা (0-9) আর আন্ডারস্কোর (_) ব্যবহার করা যায়।
 
-2. **Reserved Keywords:** Variable names cannot be the same as C reserved keywords (e.g., `int`, `if`, `while`). Avoid using these keywords as variable names.
+তবে নামটি অক্ষর বা আন্ডারস্কোর দিয়ে শুরু হতে হবে, সংখ্যা দিয়ে শুরু করা যাবে না।
 
-3. **No Special Characters:** Avoid using special characters like `@`, `$`, or `%` in variable names. Stick to letters, numbers, and underscores.
+উদাহরণ:ভালো নাম – age, _total, marks1
+        ভুল নাম – 1num, *data
 
-4. **Length:** Variable names can be as long as necessary, but it's a good practice to keep them reasonably short and descriptive.
+**২.Reserved Keywords (সংরক্ষিত শব্দ ব্যবহার করা যাবে না):**
+ভেরিয়েবলের নাম হিসেবে C ভাষার কীওয়ার্ড (যেমন int, while, return) ব্যবহার করা যাবে না।
+
+ভুল উদাহরণ: int, if, void – এসব নাম ভেরিয়েবলের জন্য ব্যবহার করলে ভুল হবে।
+
+**৩.No Special Characters (বিশেষ চিহ্ন ব্যবহার করা যাবে না):**
+ভেরিয়েবলের নামে @, $, %, !, &, * ইত্যাদি চিহ্ন ব্যবহার করা যাবে না।
+
+ভুল নাম: my@name, value$, num%1
+
+**৪.Length (নামের দৈর্ঘ্য):**
+ভেরিয়েবলের নাম যত খুশি লম্বা করা যায়, কিন্তু ছোট এবং অর্থবোধক রাখা ভালো।
+
+ভালো নাম: totalMarks, studentAge, averageScore
+
+**৫.Case Sensitive (হুবহু মিল না থাকলে আলাদা ধরা হয়):**
+C ভাষায় বড় হাত ও ছোট হাতের অক্ষর আলাদা মনে করা হয়।
+
+উদাহরণ: MyVar এবং myvar — দুটি আলাদা ভেরিয়েবল।
+
 
 **Variable Naming Conventions:**
 
