@@ -494,78 +494,53 @@ char → একটি অক্ষর (যেমন: 'A')
 
 #### **Data Types:**
 
-C provides several built-in data types, allowing you to store different types of data in variables. Common data types include:
+## 🧮 Integer Data Types in C
 
-1. **Integer Data Types:**
-   - `int`: Used to store whole numbers.
-   - `short`: Used for short integers.
-   - `long`: Used for long integers.
-   - `long long`: Used for very long integers.
-   - `signed` and `unsigned`: Modifiers to specify whether the integer can be negative or non-negative.
+C ভাষায় বিভিন্ন ধরনের পূর্ণসংখ্যা সংরক্ষণের জন্য কয়েকটি বিল্ট-ইন ডেটা টাইপ রয়েছে। এগুলোর মেমোরি সাইজ এবং মানের পরিসীমা (range) নির্ভর করে সিস্টেম ও কম্পাইলারের উপর। নিচে সাধারণ কিছু integer টাইপ ও তাদের বৈশিষ্ট্য দেওয়া হলো:
 
-   In C, the memory allocated for integer data types like `int`, `short`, `long`, and `long long` can vary depending on the specific implementation (compiler and system). However, there are general guidelines and common memory sizes associated with these data types on most systems.
+---
 
-      Here's an example of integer data types and their common memory sizes:
+### ✅ `int`
+- সাধারণ পূর্ণসংখ্যা।
+- **মেমোরি সাইজ:** 4 বাইট (32 বিট)
+- **রেঞ্জ:** -2,147,483,648 থেকে 2,147,483,647
+- **উদাহরণ:** `int myInt;`
 
-      **`int`:**
-         - Common memory size: 4 bytes (32 bits)
-         - Typical range: -2,147,483,648 to 2,147,483,647
+---
 
-      ```c
-      int myInt; // Declaration of an integer variable
-      ```
+### ✅ `short` / `short int`
+- ছোট পূর্ণসংখ্যা।
+- **মেমোরি সাইজ:** 2 বাইট (16 বিট)
+- **রেঞ্জ:** -32,768 থেকে 32,767
+- **উদাহরণ:** `short myShort;`
 
-      **`short` (or `short int`):**
-         - Common memory size: 2 bytes (16 bits)
-         - Typical range: -32,768 to 32,767
+---
 
-      ```c
-      short myShort; // Declaration of a short integer variable
-      ```
+### ✅ `long`
+- বড় পরিসরের পূর্ণসংখ্যা।
+- **মেমোরি সাইজ:** 4 বা 8 বাইট (সিস্টেম অনুযায়ী)
+- **রেঞ্জ (32 বিট):** -2,147,483,648 থেকে 2,147,483,647
+- **রেঞ্জ (64 বিট):** -9,223,372,036,854,775,808 থেকে 9,223,372,036,854,775,807
+- **উদাহরণ:** `long myLong;`
 
-      **`long`:**
-         - Common memory size: 4 bytes (32 bits) or 8 bytes (64 bits, on 64-bit systems)
-         - Typical range: -2,147,483,648 to 2,147,483,647 (32-bit), or -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 (64-bit)
+---
 
-      ```c
-      long myLong; // Declaration of a long integer variable
-      ```
+### ✅ `long long` / `long long int`
+- অতিরিক্ত বড় পূর্ণসংখ্যা।
+- **মেমোরি সাইজ:** 8 বাইট (64 বিট)
+- **রেঞ্জ:** -9,223,372,036,854,775,808 থেকে 9,223,372,036,854,775,807
+- **উদাহরণ:** `long long myLongLong;`
 
-      **`long long` (or `long long int`):**
-         - Common memory size: 8 bytes (64 bits)
-         - Typical range: -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+---
 
-      ```c
-      long long myLongLong; // Declaration of a long long integer variable
-      ```
+### ➕➖ `signed` এবং `unsigned`
+- `signed`: ডিফল্ট। ধনাত্মক ও ঋণাত্মক মান রাখে।
+- `unsigned`: শুধুমাত্র ধনাত্মক মান রাখে (range দ্বিগুণ হয়)।
+- **উদাহরণ:**
+  ```c
+  signed int mySigned = -10;
+  unsigned int myUnsigned = 100;
 
-      **`signed` and `unsigned`:**
-         - These qualifiers can be used with integer data types to specify whether the values are signed (can be positive or negative) or unsigned (only non-negative).
-
-      ```c
-      signed int mySignedInt;       // A signed integer can store positive and negative
-      unsigned int myUnsignedLongLong; // An unsigned can store only positive values
-
-      #include <stdio.h>
-
-      int main() {
-         signed int positiveNumber = 42;
-         signed int negativeNumber = -10;
-
-         printf("Positive Number: %d\n", positiveNumber);
-         printf("Negative Number: %d\n", negativeNumber);
-
-         return 0;
-      }
-      ```
-
-
-      ```c
-      printf("Size of int: %lu bytes\n", sizeof(int));
-      printf("Size of short: %lu bytes\n", sizeof(short));
-      printf("Size of long: %lu bytes\n", sizeof(long));
-      printf("Size of long long: %lu bytes\n", sizeof(long long));
-      ```
 
 
 2. **Floating-Point Data Types:**
