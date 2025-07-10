@@ -585,7 +585,10 @@ int main() {
 }
 এখানে sizeof() বলে দিচ্ছে যে কোন ডেটা টাইপ কত বাইট মেমোরি নিচ্ছে।
 ```
- **Character Data Type:**
+
+ ---
+ ### Character Data Type:
+ ---
    - `char`: Used to store a single character.
 
    In C, character data is represented using the `char` data type. Here's an example of using the `char` data type to declare character variables and store character values:
