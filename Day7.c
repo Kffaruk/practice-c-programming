@@ -67,5 +67,21 @@ int main()
         i = i + 2;
     }
 
+    
+    //  problem 9
+    int x;
+    printf("Enter the number: ");
+    scanf("%d", &x);
+
+    if (33 <= x)
+    {
+        printf("Pass\n");
+    }
+    else
+    {
+        printf("Fail\n");
+    }
+
+
     return 0;
 }
