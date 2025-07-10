@@ -82,6 +82,21 @@ int main()
         printf("Fail\n");
     }
 
+   // problem 10
 
+    int x;
+    printf("Enter the number: ");
+    scanf("%d", &x);
+
+    if (x % 2 == 0)
+    {
+        printf("Even\n");
+    }
+    else
+    {
+        printf("Odd\n");
+    }
+
+    
     return 0;
 }
